@@ -1,0 +1,28 @@
+body{
+	background: #7C007F;
+}
+
+#contenedor{
+	text-align: center;
+	background-color: white;
+	height: 50px;
+}
+
+#contenedor h1{
+	color:#BC39BF;
+	font-size: 15px;
+}
+
+.fotos {
+	text-align: center;
+}
+
+.fotos img{
+	width: 150px;
+	height: 200px;
+}
+
+.fotos p{
+	font-size: 30px;
+	font-weight: bold;
+}

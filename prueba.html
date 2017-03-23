@@ -1,0 +1,33 @@
+<HTML>
+  <HEAD>
+    <TITLE>Ejemplo de márgenes, rellenos y bordes</TITLE>
+    <STYLE type="text/css">
+      UL { 
+        background: green; 
+        margin: 12px 12px 12px 12px;
+        padding: 3px 3px 3px 3px;
+                                     /* No se especifica border */
+      }
+      LI { 
+        color: black;                /* el color del texto es negro */ 
+        background: gray;            /* Contenido, padding será gris */
+        margin: 12px 12px 12px 12px;
+        padding: 12px 0px 12px 12px; /* Note 0px para padding right */
+        list-style: none             /* sin viñeta antes de un ítem */
+                                     /* Ningún borde definido */
+      }
+      LI.withborder {
+        border-style: dashed;
+        border-width: medium;        /* pone el ancho de border para todos los lados */
+        border-color: black;
+      }
+    </STYLE>
+  </HEAD>
+  <BODY>
+    <UL>
+      <LI>El primer elemento
+      <LI class="withborder">El segundo elemento de la lista es
+           más largo y se ajusta.
+    </UL>
+  </BODY>
+</HTML>
