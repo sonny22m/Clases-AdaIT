@@ -1,0 +1,14 @@
+---
+iSoon v1.0 - Coming Soon HTML5/CSS3 Template
+Copyright (C) 2014 Mohammadi El Youzghi <mo.elyouzghi@gmail.com>
+---
+
+1. Abre el archivo 'config.php' usando un editor de texto
+
+2. Cambia los valores de las 2 variables de configuración de esta forma:
+	- launching_date: La fecha de lanzamiento del sitio en formato MM/DD/AAAA hh:mm:ss
+	- email_to: Correo electrónico donde recibir los mensajes del formulario de contacto (por ejemplo usuario@dominio.tld)
+
+3. Sube todos los archivos (excepto este) al servidor web (por ejemplo usando FTP)
+
+4. Enjoy!

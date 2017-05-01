@@ -1,0 +1,271 @@
+/* 
+ * iSoon v1.0 - Coming Soon HTML5/CSS3 Template
+ * Copyright (C) 2014 Mohammadi El Youzghi <mo.elyouzghi@gmail.com>
+ */
+
+@font-face {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	src: local('Roboto Regular'), local('Roboto-Regular'), url(../fonts/Roboto.woff) format('woff');
+}
+
+html, body{
+	height: 100%;
+}
+body{
+	margin: 0;
+	padding: 0;
+	background: none repeat scroll 0 0 #e5e5e5;
+}
+
+h1{
+	text-align: center;
+	margin: 0.5em 0;
+}
+
+a{
+	text-decoration: none;
+}
+
+.strike{
+	text-decoration: line-through;
+}
+
+.wrapper{
+	height: 100%;
+	max-width: 800px;
+	margin: 0 auto;
+}
+.wrapper:before, .container{
+	display: inline-block;
+	vertical-align: middle;
+}
+.wrapper:before{
+	content: '';
+	display: inline-block;
+	width: 0;
+	height: 100%;
+	vertical-align: middle;
+	margin-left: -0.25em;
+}
+.container{
+	width: 100%;
+	background: #f9f9f9;
+	border-radius: 5px;
+	color: #444;
+	font-family: Roboto, 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 16px;
+	word-wrap: break-word;
+}
+
+.container .content .title{
+	margin: 20px 0;
+	width: 100%;
+	min-height: 40px;
+	line-height: 40px;
+	background-color: #FA5858;
+	color: #FFF;
+}
+
+.content p{
+	text-align: center;
+}
+
+.clock-container{
+	display: table;
+	margin: 0 auto;
+}
+
+#clock{
+	display: table-cell;
+	vertical-align: middle;
+	width: auto;
+	height: 50px;
+	
+	line-height: 50px;
+	text-align: center;
+}
+
+#clock .panel{
+	float: left;
+	width: 78px;
+	margin: 0 5px;
+	margin-top: 20px;
+	text-align: center;
+}
+
+#clock .number{
+	background-color: #444;
+	color: #FFF;
+	font-size: 48px;
+	padding: 10px;
+	font-weight: bold;
+}
+
+.footer{
+	height: 40px;
+	line-height: 42px;
+	margin-bottom: 20px;
+	padding: 0 5px;
+	border-bottom: 1px dotted #444;
+	border-top: 1px dotted #444;
+}
+
+.footer .copyright{
+	float: left;
+	font-size: 0.8em;
+}
+
+.footer .social{
+	float: right;
+	font-size: 1.5em;
+}
+
+.footer .social a,
+.footer .social a:visited{
+	color: #444;
+}
+
+.footer .social a:hover,
+.footer .social a:active{
+	color: #000;
+}
+
+/* Modal windows */
+.modalmask {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0,0,0,0.8);
+    z-index: 99999;
+    opacity:0;
+    -webkit-transition: opacity 400ms ease-in;
+    -moz-transition: opacity 400ms ease-in;
+    transition: opacity 400ms ease-in;
+    pointer-events: none;
+}
+.modalmask:target {
+    opacity:1;
+    pointer-events: auto;
+}
+
+.modalbox{
+    max-width: 600px;
+    position: relative;
+    padding: 5px 20px 13px 20px;
+    background: #fff;
+    border-radius:3px;
+    -webkit-transition: all 500ms ease-in;
+    -moz-transition: all 500ms ease-in;
+    transition: all 500ms ease-in;
+     
+}
+
+.movedown {
+    margin: 0 auto;
+}
+
+.modalmask:target .movedown{       
+    margin:10% auto;
+}
+
+.close {
+    background: #606061;
+    color: #FFFFFF;
+    line-height: 25px;
+    position: absolute;
+    right: 1px;
+    text-align: center;
+    top: 1px;
+    width: 24px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 3px;
+}
+ 
+.close:hover {
+	background-color: #FA5858;
+}
+
+.form-container{
+	width: calc(100% - 24px);
+}
+
+.modalbox input[type="text"],
+.modalbox input[type="email"],
+.modalbox textarea{
+	background-image: none;
+	border-radius: 4px;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+	color: #888;
+	display: block;
+	font-size: 12px;
+	height: 30px;
+	line-height: 1.42857;
+	padding: 6px 12px;
+	width: 100%;
+	margin-bottom: 10px;
+	background-color: #e5e5e5;
+    border: 0 none;
+	transition: all 300ms ease 0s;
+	font-family: Arial, sans-serif;
+}
+
+.modalbox textarea{
+	min-height: 100px;
+}
+
+.modalbox input:focus,
+.modalbox textarea:focus,
+.modalbox .btn:hover{
+	background-color: #B3B3B3;
+	color: #000;
+	box-shadow: none;
+}
+
+.modalbox .btn{
+	-moz-user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857;
+    margin-bottom: 0;
+    padding: 6px 12px;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+	background-color: #e5e5e5;
+}
+
+.hidden {
+	display: none;
+}
+
+.alert {
+	width: 100%;
+	padding: 6px 12px;
+	border-style: solid;
+    border-width: 1px;
+    position: relative;
+	border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.error{
+	background-color: rgba(252, 199, 182, 1);
+    border-color: rgba(249, 161, 133, 1);
+    color: rgba(188, 52, 9, 1);
+}
+
+.success{
+	background-color: rgba(225, 237, 196, 1);
+	border-color: rgba(204, 225, 157, 1);
+	color: rgba(129, 164, 50, 1);
+}
