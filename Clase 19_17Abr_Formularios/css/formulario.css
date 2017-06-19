@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css?family=Concert+One');
+@import url('https://fonts.googleapis.com/css?family=Holtwood+One+SC');
+
+* {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	font-family: 'Concert One', serif;
+}
+
+body{
+	background-image: url("../img/JLWidescreen.jpg");
+	background-size: cover; 
+	background-attachment: fixed; 
+}
+
+/*------- HEADER ------- */
+header{
+	background-color: #010400;
+	height: 200px;
+}
+
+header h1{
+	text-align: left;
+	color: white;
+	font-size: 100px;
+}
+
+img{
+	width: 170px;
+	height: 170px;
+	padding: 20px;
+}
+
+/*------- NAV ------- */
+
+nav a{
+	background-color: #201A23;
+	font-size: 15px;
+}
+
+/****** FORMULARIO *****/
+
+#main-form {
+	width: 80%;
+	background: rgba(217, 223, 226, 0.5);
+}
+
+.conteiner-fluid{
+	margin: 20px 0 20px 0;
+}
+
+#main-form h1 {
+	font-size: 70px;
+	text-align: center;
+	color: white;
+	font-family: 'Holtwood One SC', serif;
+}
+
+#main-form h2 {
+	color: black;
+	width: 100%;
+	font-size: 25px;
+	background-color: grey;
+	text-align: center;
+}
+
+.form-control{
+	margin: 20px 0 20px 0;
+}
+
+label, input, button {
+	font-family: 'Concert One', serif;
+}
+
+.form-check-input {
+	padding-right: 30px;
+}
+
+/****** FOOTER Y REDES SOCIALES *****/
+footer {
+	width: 100%;
+	background: black;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	color: white;
+	font-size: 15px;
+	padding: 20px;
+}
+
+.redes a {
+	width: 100%;
+	color: white;
+	font-size: 20px;
+	text-decoration: none;
+	margin-left: 10px; 
+}
+
+footer .redes a:hover{
+	color: #555358;
+}
