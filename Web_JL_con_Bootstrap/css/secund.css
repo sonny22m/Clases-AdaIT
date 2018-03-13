@@ -1,0 +1,18 @@
+/****** RELOJ CUENTA REGRESIVA *****/
+.container {
+	width: 100%;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.timer-area h1{
+	background: transparent url('IMG/timer-area-pattern.png') left top;
+	text-align: center;
+	padding-top: 2em;
+	color: white;
+	margin-bottom: 4em;
+}
+
+#logo img {
+  margin: 2em 0;
+}

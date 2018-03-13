@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css?family=Concert+One');
+
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	background-image: url("../img/JLWidescreen.jpg");
+	background-size: cover; 
+	background-attachment: fixed; 
+	font-family: 'Concert One', serif;
+}
+
+/*------- HEADER ------- */
+header{
+	background-color: #010400;
+	height: 200px;
+}
+
+header h1{
+	text-align: left;
+	color: white;
+	font-size: 100px;
+}
+
+img{
+	width: 170px;
+	height: 170px;
+	padding: 20px;
+}
+
+/*------- NAV ------- */
+
+nav a{
+	background-color: #201A23;
+	font-size: 15px;
+}
+
+/*------- GLYPHICON ------- */
+span{
+	font-size: 30px;
+	padding: 20px 8px 20px 8px; 
+}
+
+/*------- DIVS ------- */
+.row{
+	padding: 25px 20px 25px 20px;
+}
+
+#main {
+	background: rgba(217, 223, 226, 0.5);
+	height: 450px;
+}
+
+#main-secundario {
+	background: rgba(217, 223, 226, 0.5);
+	height: 550px;
+}
+
+/****** NEWSLETTERS *****/
+
+@import url(//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css);
+@import url(//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css);
+
+input.btn-primary {
+  margin-top: 15px;
+}
+
+#button:hover {
+	font-weight: bold;
+}
+
+/****** FOOTER Y REDES SOCIALES *****/
+footer {
+	width: 100%;
+	background: black;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	color: white;
+	font-size: 15px;
+	padding: 20px;
+}
+
+.redes a {
+	width: 100%;
+	color: white;
+	font-size: 20px;
+	text-decoration: none;
+	margin-left: 10px; 
+}
+
+footer .redes a:hover{
+	color: #555358;
+}
