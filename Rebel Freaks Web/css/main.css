@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css?family=Orbitron|Patua+One');
+
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	background-image: url("../img/background3.png");
+	background-size: cover; 
+	background-attachment: fixed; 
+	font-family: 'Patua One', cursive;
+}
+
+/*------- HEADER ------- */
+header{
+	height: 300px;
+	background-color: #010400;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	/*align-items: center;*/
+}
+
+header h1{
+	font-family: 'Orbitron', sans-serif;
+	text-align: right;
+	color: white;
+	font-size: 90px;
+}
+
+header h4{
+	font-family: 'Orbitron', sans-serif;
+	text-align: right;
+	color: white;
+}
+
+img{
+	margin: 20px 0 20px 0;
+	align-items: left;
+}
+
+
+/*------- NAV ------- */
+
+nav a{
+	font-size: 15px;
+	color: white;
+}
+
+/*------- SLYDER ------- */
+img{
+	height: 200px;
+}
+
+#slider-principal{
+	margin: 30px -15px;
+}
+
+#slider-principal img{
+	height: 600px;
+}
+
+/*------- MEDIDAS 
+#med{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+}------- */
+
+
+
+/*------- FORMULARIO ------- */
+
+fieldset h1{
+	color: white;
+	font-family: 'Patua One', cursive;
+	font-size: 35px;
+}
+
+
+.container-fluid {
+	width: 50%;
+	background: rgba(223, 197, 167, 0.6);
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+  	align-items: center;
+}
+
+/****** NEWSLETTERS 
+
+@import url(//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css);
+@import url(//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css);
+
+input.btn-primary {
+  margin-top: 15px;
+}
+
+#button:hover {
+	font-weight: bold;
+}*****/
+
+/****** FOOTER Y REDES SOCIALES *****/
+footer {
+	width: 100%;
+	background: black;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	color: white;
+	font-size: 15px;
+	padding: 20px;
+}
+
+.redes a {
+	width: 100%;
+	color: white;
+	font-size: 20px;
+	text-decoration: none;
+	margin-left: 10px; 
+}
+
+/**footer .redes a:hover{
+	color: #555358;
+}**/
