@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css?family=Architects+Daughter|Pacifico');
+
+* {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+/*------- BODY 
+body{
+	background-image: url("img/Background_amapola.jpg");
+	background-size: 50%;
+	background-position: left;
+	background-size: cover; 
+	background-attachment: fixed; 
+}------- */
+
+/*------- HEADER ------- */
+header{
+	background-color: #B74C6B;
+	height: 279px;
+}
+
+img{
+	width: 100%;
+}
+
+/*------- NAV ------- */
+nav a{
+	background-color: #AE2757;
+	color: #F8DBE4;
+	font-size: 20px;
+	font-family: 'Pacifico', cursive;
+}
+
+/****** FORMULARIO *****/
+
+#main-form {
+	width: 80%;
+	background: #F8DBE4;
+}
+
+#main-form h1 {
+	font-size: 30px;
+	text-align: center;
+	color: #B74C6B;
+	font-family: 'Architects Daughter', cursive;
+	padding: 50px 0 50px 0;
+}
+
+.form-control{
+	padding: 50px 0 50px 0;
+}
+
+label, input {
+	font-family: 'Architects Daughter', cursive;
+}
+
+#btn-Enviar{
+	background-color: #AE2757;
+	color: #F8DBE4;
+	cursor: pointer;
+	font-weight: bold;
+	font-family: 'Architects Daughter', cursive;
+	font-size: 15px;
+	align-content: right;
+}
+
+/****** FOOTER *****/
+footer{
+	width: 100%;
+	background: #DBB1BB;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	padding: 10px;
+	color: #B74C6B;
+	font-family: 'Pacifico', cursive;
+	font-size: 15px;
+	text-align: center;
+}

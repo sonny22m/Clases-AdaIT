@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="utf-8">
+		<!-- Viewport -->
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+		<title>FORMULARIO VALIDANDO CON JS</title>
+		<!-- hojas de estilos -->
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="css/fontello.css">
+		<!-- Fonts -->
+		<link href="https://fonts.googleapis.com/css?family=Architects+Daughter|Pacifico" rel="stylesheet">
+	</head>
+	<body>
+
+		<header>		<!-- HEADER -->
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<img src="img/banner-logo.svg" alt="logo">
+					</div>
+				</div>
+			</div>
+		</header>		<!-- FIN HEADER -->
+
+		<nav>			<!-- MENU NAV -->
+	        <ul class="nav nav-pills nav-justified">
+	            <li role="presentation"><a href="index.html">Home</a></li>
+	            <li role="presentation"><a href="#">Productos</a></li>
+	            <li role="presentation"><a href="Index_FormularioJS.html">Registro a Coquelicot</a></li>
+	            <li role="presentation"><a href="#">Contacto</a></li>
+	        </ul>		<!-- FIN MENU NAV -->
+
+	    </nav>
+	    <div class="container-fluid" id="main-form"><!-- CONTAINER -->
+        	<h1 class="col-md-12"> Registrate a Coquelicot para poder comprar </h1>
+
+        	<form class="form-horizontal">			<!-- FORM FORMULARIO-->
+				<div class="form-group">			<!-- ETIQ-NOMBRE-->
+	                <label class="control-label col-md-3">Nombre</label>
+		            <div class="col-md-9">
+						<input type="text" class="form-control" id="nombre" placeholder="Coloque su nombre completo">
+					</div>
+				</div>								<!-- ETIQ-NOMBRE-->
+
+				<div class="form-group">
+	                <label class="control-label col-md-3">Apellido</label>
+					<div class="col-md-9">
+						<input type="text" class="form-control" id="apellido" placeholder="Coloque su apellido">
+					</div>
+				</div>								<!-- ETIQ-APELLIDO-->
+
+				<div class="form-group">
+	                <label class="control-label col-md-3">Teléfono</label>
+					<div class="col-md-9">
+						<input class="form-control" id="telefono" placeholder="Coloque su telefono con caracteristica">
+					</div>
+				</div>								<!-- ETIQ-TELEFONO-->
+
+				<div class="form-group">
+	                <label class="control-label col-md-3">E-mail</label>
+					<div class="col-md-9">
+						<input type="email" class="form-control" id="email" placeholder="Coloque su E-m@il">
+					</div>
+				</div>								<!-- ETIQ-EMAIL-->
+
+				<div class="form-group">
+	                <label class="control-label col-md-3">Edad</label>
+					<div class="col-md-9">
+						<input type="number" class="form-control" id="edad" placeholder="Coloque su edad (siendo mayor de 21años)">
+					</div>
+				</div>								<!-- ETIQ-EDAD-->
+
+				<div class="col-md-12">
+	                <button  type="submit" class="btn btn-default btn-md" id="btn-Enviar" onclick="Enviar()">Enviar</button>
+    	        </div>								<!-- BOTON -->
+			</form>									<!-- FIN FORM FORMULARIO-->
+		</div>										<!-- FIN CONTAINER -->
+			
+		<footer>
+        	<div class="autor">
+           		<p>Desarrollado con amor en el curso <a href="http://www.ada.com.ar" target="_blank">AdaIT &copy;2017</p>
+        	</div>		<!-- FIN Autor -->
+    	</footer>		<!-- FIN Footer -->
+    	<script type="text/javascript" src="formulario.js"></script>	
+		<script src="js/jquery.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+	</body>
+</html>
