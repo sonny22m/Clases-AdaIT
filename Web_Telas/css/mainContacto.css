@@ -1,0 +1,42 @@
+/* ------- FORMULARIO ------- */
+
+fieldset{
+	height: 300px;
+	margin: 0 auto;
+	border: none;
+	padding: 0 0 5px 0;
+}
+
+form{
+	width: 400px;
+	padding: 40px 10px 0 10px;
+	margin: 0 auto;
+	border-radius: 4px
+}
+
+input{
+	display: block;
+	border: none;
+	margin: 20px auto;
+	width: 280px;
+	padding: 5px 0;
+	text-align:center;
+	font-size: 14px;
+	border-radius: 4px;
+}
+
+legend{
+	width: 100%;
+	text-align: center;
+	font-size: 30px;
+	font-weight: bold;
+	color:#FF8885;
+}
+
+input[type="submit"]{
+	background-color: #FF8885;
+	color: #733D3C;
+	cursor: pointer;
+	font-weight: bold;
+	font-size: 20px;
+}
